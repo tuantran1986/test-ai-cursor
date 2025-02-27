@@ -12,7 +12,7 @@ import { useState } from "react";
 import "react-native-get-random-values"; // Import này phải đặt trước : uuid
 import { v4 as uuidv4 } from "uuid";
 
-export default function App() {
+export default function AppBai1DangNhap() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
